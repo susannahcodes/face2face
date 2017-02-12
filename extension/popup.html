@@ -20,6 +20,9 @@
       h1 {
       color: white;
       }
+      div.buttons { display: flex;
+    justify-content: center;}
+      
       #status {
         /* avoid an excessively wide status text */
         white-space: pre;
@@ -36,8 +39,9 @@
 <img src="http://face-2face.net/face2facelogo.png" alt="f2f logo" width="200" height="109" style="align:middle""> 
  	<h1> You've been matched! 
  	<style> color: white </style> </h1>
- 	<a href = "http://face-2face.net/?pearlHacks:happy" target="_blank"><button>agree</button></a>
- 	<a href="http://face-2face.net/?pearlHacks:sad" target="_blank"> <button>diagree</button></a>
+ 	<div class="buttons">
+ 	<a href = "http://face-2face.net/?pearlHacks:agree" target="_blank"><button>agree</button></a>
+ 	<a href="http://face-2face.net/?pearlHacks:disagree" target="_blank"> <button>diagree</button></a> <div>
 
  <!--	<button id="checkPage">Check this page now!</button> -->
   </body>
