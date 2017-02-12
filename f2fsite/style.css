@@ -1,0 +1,85 @@
+div#messages {
+	float: left;
+    font-size: 14px;
+    color: white;
+    font-family: Arial;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 400px;
+    overflow-y: auto;
+}
+
+div#msginput {
+float: left;
+}
+
+div.combo {
+display: flex;
+}
+
+span.nickname {
+color: red
+}
+
+div.allmessageelements {
+display: flex;
+flex-direction: column;
+}
+
+div.videoContainer {
+width: 50%;
+height: 100%;
+transform: scaleX(-1);
+height: 300px;
+}
+
+div.entertools {
+	dipsplay.flex;
+	justify-content: center;
+}
+
+div.logoImage {
+	display: flex;
+    justify-content: center;
+    background: black;
+    }
+
+body {
+background-color: #242121;
+color: white;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    font-family: Arial;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+
+
