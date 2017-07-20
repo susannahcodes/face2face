@@ -12,7 +12,7 @@ More info can be found [here](https://devpost.com/software/face2face) on the dev
 ## What is face2face?
 
 * A Chrome Extension (Not yet live, but projecting publishing in late 2017)
-* A [website](https://face-2-face.net), hosted through AWS
+* A [website](https://face-2face.net), hosted through AWS
 
 ## Here's how it works:
 
